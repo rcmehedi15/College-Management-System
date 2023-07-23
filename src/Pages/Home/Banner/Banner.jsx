@@ -1,13 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../Banner/Banner.css'
 import Infra from '../../../assets/infra.jpg'
 import InfraNight from '../../../assets/infraNight.jpg'
 
 const Banner = () => {
     return (
         <>
-            <div className="hero mt-16 min-h-screen bg-base-200 ">
+            <div className="hero  min-h-screen bg-base-200 ">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <img src={Infra} className='w-80 rounded-lg rotate-3	'/>
                     <img src={InfraNight} className='w-80 rounded-lg rotate-3	'/>
