@@ -5,7 +5,7 @@ const Footer = () => {
     const year = today.getFullYear();
 
     return (
-        <footer className="footer footer-center p-10 bg-[#0B0223] text-base-content rounded mt-8">
+        <footer className="footer footer-center p-10 bg-[#0B0223] text-base-content rounded ">
             <img src={Logo} alt="" className=" w-24 " />
             <div className="grid grid-flow-col text-white gap-4">
 
